@@ -100,9 +100,9 @@ const Navbar = () => {
     open: { opacity: 1, x: 0 }
   };
 
-  // Generate animated particles for the background
+ 
   const BackgroundParticles = () => {
-    // Create an array of particles
+    
     const particles = Array.from({ length: 30 }).map((_, i) => (
       <motion.div
         key={i}
@@ -131,7 +131,7 @@ const Navbar = () => {
     return particles;
   };
 
-  // Background wave animation
+  
   const WaveAnimation = () => {
     return (
       <svg 

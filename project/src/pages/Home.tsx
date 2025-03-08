@@ -8,13 +8,13 @@ const Home = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const backgroundRef = useRef(null);
   
-  // Refs for parallax effect
+  
   const heroTextControls = useAnimation();
   const [featuresRef, featuresInView] = useInView({ triggerOnce: true, threshold: 0.1 });
   const [ctaRef, ctaInView] = useInView({ triggerOnce: true, threshold: 0.1 });
   const [heroRef, heroInView] = useInView({ triggerOnce: true, threshold: 0.1 });
   
-  // Handle mouse movement for background effect
+  
   useEffect(() => {
     const handleMouseMove = (e) => {
       const { clientX, clientY } = e;

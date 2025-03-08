@@ -71,13 +71,13 @@ MediDose AI is a web-based application designed to provide personalized medicati
    ```
 3. **Start the development server:**
    ```bash
-   npm start
+   npm run dev
    ```
    or
    ```bash
    yarn start
    ```
-   The application will be running at [http://localhost:3000](http://localhost:3000).
+   The application will be running at (http://localhost:5175/)
 
 ### Building for Production
 
@@ -88,4 +88,4 @@ npm run build
 or
 ```bash
 yarn build
-```
+```Special thanks to my TEAM MEMBERS- RAAJVAVEL R , ROHAN SINGH  , THARUNSAI NANNURI
